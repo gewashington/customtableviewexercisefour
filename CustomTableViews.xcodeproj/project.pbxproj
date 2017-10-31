@@ -18,6 +18,8 @@
 		81A6BFB11FA8C42C00C507AA /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFB01FA8C42C00C507AA /* MovieData.swift */; };
 		81A6BFB31FA8D87400C507AA /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFB21FA8D87400C507AA /* MovieTableViewCell.swift */; };
 		81A6BFB51FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFB41FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift */; };
+		81A6BFF11FA90A1E00C507AA /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A6BFF01FA90A1D00C507AA /* Roboto-Black.ttf */; };
+		81A6BFF31FA90C2200C507AA /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A6BFF21FA90C2200C507AA /* Oswald-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		81A6BFB01FA8C42C00C507AA /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 		81A6BFB21FA8D87400C507AA /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		81A6BFB41FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift"; sourceTree = "<group>"; };
+		81A6BFF01FA90A1D00C507AA /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../Downloads/roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		81A6BFF21FA90C2200C507AA /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oswald-Light.ttf"; path = "../../Downloads/oswald/Oswald-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		81A6BF741FA8BEE200C507AA = {
 			isa = PBXGroup;
 			children = (
+				81A6BFF01FA90A1D00C507AA /* Roboto-Black.ttf */,
+				81A6BFF21FA90C2200C507AA /* Oswald-Light.ttf */,
 				81A6BF7F1FA8BEE200C507AA /* CustomTableViews */,
 				81A6BF941FA8BEE200C507AA /* CustomTableViewsTests */,
 				81A6BF9F1FA8BEE200C507AA /* CustomTableViewsUITests */,
@@ -245,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A6BF8B1FA8BEE200C507AA /* LaunchScreen.storyboard in Resources */,
+				81A6BFF31FA90C2200C507AA /* Oswald-Light.ttf in Resources */,
 				81A6BF881FA8BEE200C507AA /* Assets.xcassets in Resources */,
 				81A6BF861FA8BEE200C507AA /* Main.storyboard in Resources */,
+				81A6BFF11FA90A1E00C507AA /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
