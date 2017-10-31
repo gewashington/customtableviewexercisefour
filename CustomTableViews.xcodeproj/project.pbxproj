@@ -14,6 +14,10 @@
 		81A6BF8B1FA8BEE200C507AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A6BF891FA8BEE200C507AA /* LaunchScreen.storyboard */; };
 		81A6BF961FA8BEE200C507AA /* CustomTableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BF951FA8BEE200C507AA /* CustomTableViewsTests.swift */; };
 		81A6BFA11FA8BEE200C507AA /* CustomTableViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFA01FA8BEE200C507AA /* CustomTableViewsUITests.swift */; };
+		81A6BFAF1FA8C3E800C507AA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFAE1FA8C3E800C507AA /* Movie.swift */; };
+		81A6BFB11FA8C42C00C507AA /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFB01FA8C42C00C507AA /* MovieData.swift */; };
+		81A6BFB31FA8D87400C507AA /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFB21FA8D87400C507AA /* MovieTableViewCell.swift */; };
+		81A6BFB51FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFB41FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		81A6BF9C1FA8BEE200C507AA /* CustomTableViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A6BFA01FA8BEE200C507AA /* CustomTableViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewsUITests.swift; sourceTree = "<group>"; };
 		81A6BFA21FA8BEE200C507AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81A6BFAE1FA8C3E800C507AA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		81A6BFB01FA8C42C00C507AA /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		81A6BFB21FA8D87400C507AA /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		81A6BFB41FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				81A6BF801FA8BEE200C507AA /* AppDelegate.swift */,
+				81A6BFB21FA8D87400C507AA /* MovieTableViewCell.swift */,
+				81A6BFB41FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift */,
+				81A6BFAE1FA8C3E800C507AA /* Movie.swift */,
 				81A6BF821FA8BEE200C507AA /* ViewController.swift */,
 				81A6BF841FA8BEE200C507AA /* Main.storyboard */,
+				81A6BFB01FA8C42C00C507AA /* MovieData.swift */,
 				81A6BF871FA8BEE200C507AA /* Assets.xcassets */,
 				81A6BF891FA8BEE200C507AA /* LaunchScreen.storyboard */,
 				81A6BF8C1FA8BEE200C507AA /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A6BFB31FA8D87400C507AA /* MovieTableViewCell.swift in Sources */,
+				81A6BFB11FA8C42C00C507AA /* MovieData.swift in Sources */,
 				81A6BF831FA8BEE200C507AA /* ViewController.swift in Sources */,
+				81A6BFB51FA8FDEA00C507AA /* MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell MovieRightAlignedTableViewCell.swift in Sources */,
 				81A6BF811FA8BEE200C507AA /* AppDelegate.swift in Sources */,
+				81A6BFAF1FA8C3E800C507AA /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
